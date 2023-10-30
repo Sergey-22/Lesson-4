@@ -1,0 +1,77 @@
+.first,
+.second,
+.third {
+  background-color: gray;
+}
+
+.first *,
+.second *,
+.third * {
+  width: 50px;
+  background-color: coral;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.first-block-1 {
+  float: left;
+}
+
+.first-block-2 {
+  float: right;
+}
+
+.second-block-1 {
+  float: left;
+}
+
+.group-1 {
+  float: right;
+  padding: 0;
+  width: auto;
+  background-color: gray;
+}
+
+.second-block-2,
+.second-block-3,
+.second-block-4,
+.second-block-5 {
+  float: left;
+  margin-right: 15px;
+}
+
+.second-block-5 {
+  margin: 0;
+}
+
+.group-3 {
+  float: right;
+  padding: 0;
+  width: auto;
+  background-color: gray;
+}
+
+.third-block-3,
+.third-block-4 {
+  float: left;
+}
+
+.third-block-3 {
+  margin-right: 15px;
+}
+
+.third-block-1,
+.third-block-2 {
+  float: left;
+}
+.third-block-1 {
+  margin-right: 15px;
+}
+
+.fix {
+  clear: both;
+  padding: 0;
+}
