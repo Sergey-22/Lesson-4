@@ -9,7 +9,7 @@ body {
 .bacground-header {
   width: 1440px;
   margin: 0 auto;
-  background: url(./img/section-1/background/bacground.png);
+  background: url(../img/section-1/background/bacground.png);
   background-repeat: no-repeat;
   background-position: right bottom;
   padding-bottom: 107px;
