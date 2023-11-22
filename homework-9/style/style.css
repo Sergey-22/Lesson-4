@@ -7,7 +7,7 @@ body {
 }
 
 .bacground-header {
-  width: 1440px;
+  max-width: 1440px;
   margin: 0 auto;
   background: url(../img/section-1/background/bacground.png);
   background-repeat: no-repeat;
@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-  width: 1240px;
+  max-width: 1240px;
   margin: 0 auto;
 }
 
