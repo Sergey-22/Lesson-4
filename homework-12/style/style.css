@@ -1,0 +1,169 @@
+.conteiner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background: url(../img/garden-7460988_1280.jpg);
+  background-size: cover;
+  margin-top: 40px;
+}
+
+.grid__item {
+  max-width: auto;
+  height: 100px;
+  background-color: white;
+}
+
+.grid__item:nth-child(1) {
+  animation-name: ani-name;
+  animation-duration: 4.2s;
+  animation-iteration-count: infinite;
+}
+.grid__item:nth-child(2) {
+  animation-name: ani-name;
+  animation-duration: 4.2s;
+  animation-iteration-count: infinite;
+}
+.grid__item:nth-child(3) {
+  animation-name: ani-name;
+  animation-duration: 4.2s;
+  animation-iteration-count: infinite;
+}
+.grid__item:nth-child(4) {
+  animation-name: ani-name;
+  animation-duration: 4.2s;
+  animation-iteration-count: infinite;
+}
+.grid__item:nth-child(5) {
+  animation-name: ani-name;
+  animation-duration: 4.2s;
+  animation-iteration-count: infinite;
+}
+.grid__item:nth-child(6) {
+  animation-name: ani-name;
+  animation-duration: 4.3s;
+  animation-iteration-count: infinite;
+}
+.grid__item:nth-child(7) {
+  animation-name: ani-name;
+  animation-duration: 4.3s;
+  animation-iteration-count: infinite;
+}
+.grid__item:nth-child(8) {
+  animation-name: ani-name;
+  animation-duration: 4.3s;
+  animation-iteration-count: infinite;
+}
+.grid__item:nth-child(9) {
+  animation-name: ani-name;
+  animation-duration: 4.3s;
+  animation-iteration-count: infinite;
+}
+.grid__item:nth-child(10) {
+  animation-name: ani-name;
+  animation-duration: 4.3s;
+  animation-iteration-count: infinite;
+}
+.grid__item:nth-child(11) {
+  animation-name: ani-name;
+  animation-duration: 4.4s;
+  animation-iteration-count: infinite;
+}
+.grid__item:nth-child(12) {
+  animation-name: ani-name;
+  animation-duration: 4.4s;
+  animation-iteration-count: infinite;
+}
+.grid__item:nth-child(13) {
+  animation-name: ani-name;
+  animation-duration: 4.4s;
+  animation-iteration-count: infinite;
+}
+.grid__item:nth-child(14) {
+  animation-name: ani-name;
+  animation-duration: 4.4s;
+  animation-iteration-count: infinite;
+}
+.grid__item:nth-child(15) {
+  animation-name: ani-name;
+  animation-duration: 4.4s;
+  animation-iteration-count: infinite;
+}
+.grid__item:nth-child(16) {
+  animation-name: ani-name;
+  animation-duration: 4.5s;
+  animation-iteration-count: infinite;
+}
+.grid__item:nth-child(17) {
+  animation-name: ani-name;
+  animation-duration: 4.5s;
+  animation-iteration-count: infinite;
+}
+.grid__item:nth-child(18) {
+  animation-name: ani-name;
+  animation-duration: 4.5s;
+  animation-iteration-count: infinite;
+}
+.grid__item:nth-child(19) {
+  animation-name: ani-name;
+  animation-duration: 4.5s;
+  animation-iteration-count: infinite;
+}
+.grid__item:nth-child(20) {
+  animation-name: ani-name;
+  animation-duration: 4.5s;
+  animation-iteration-count: infinite;
+}
+.grid__item:nth-child(21) {
+  animation-name: ani-name;
+  animation-duration: 4.6s;
+  animation-iteration-count: infinite;
+}
+.grid__item:nth-child(22) {
+  animation-name: ani-name;
+  animation-duration: 4.6s;
+  animation-iteration-count: infinite;
+}
+.grid__item:nth-child(23) {
+  animation-name: ani-name;
+  animation-duration: 4.6s;
+  animation-iteration-count: infinite;
+}
+.grid__item:nth-child(24) {
+  animation-name: ani-name;
+  animation-duration: 4.6s;
+  animation-iteration-count: infinite;
+}
+.grid__item:nth-child(25) {
+  animation-name: ani-name;
+  animation-duration: 4.6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ani-name {
+  0% {
+    opacity: 1;
+  }
+
+  25% {
+    opacity: 0.5;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  75% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
